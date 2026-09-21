@@ -1,0 +1,70 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/AdvancedBooleanLogicTest.java",
+      "testCases": [
+        {
+          "methodName": "returnNotBothTest1",
+          "label": "Verify returnNotBoth with both inputs true",
+          "description": "Checks that returnNotBoth(true, true) returns false."
+        },
+        {
+          "methodName": "returnNotBothTest2",
+          "label": "Verify returnNotBoth when only first input is true",
+          "description": "Checks that returnNotBoth(true, false) returns true."
+        },
+        {
+          "methodName": "returnNotBothTest3",
+          "label": "Verify returnNotBoth when only second input is true",
+          "description": "Checks that returnNotBoth(false, true) returns true."
+        },
+        {
+          "methodName": "returnNotBothTest4",
+          "label": "Verify returnNotBoth with both inputs false",
+          "description": "Checks that returnNotBoth(false, false) returns true."
+        },
+        {
+          "methodName": "returnExclusiveOrTest1",
+          "label": "Verify returnExclusiveOr with both inputs true",
+          "description": "Checks that returnExclusiveOr(true, true) returns false."
+        },
+        {
+          "methodName": "returnExclusiveOrTest2",
+          "label": "Verify returnExclusiveOr with true and false",
+          "description": "Checks that returnExclusiveOr(true, false) returns true."
+        },
+        {
+          "methodName": "returnExclusiveOrTest3",
+          "label": "Verify returnExclusiveOr with false and true",
+          "description": "Checks that returnExclusiveOr(false, true) returns true."
+        },
+        {
+          "methodName": "returnExclusiveOrTest4",
+          "label": "Verify returnExclusiveOr with both inputs false",
+          "description": "Checks that returnExclusiveOr(false, false) returns false."
+        },
+        {
+          "methodName": "returnNeitherNorTest1",
+          "label": "Verify returnNeitherNor with both inputs true",
+          "description": "Checks that returnNeitherNor(true, true) returns false."
+        },
+        {
+          "methodName": "returnNeitherNorTest2",
+          "label": "Verify returnNeitherNor with false and true",
+          "description": "Checks that returnNeitherNor(false, true) returns false."
+        },
+        {
+          "methodName": "returnNeitherNorTest3",
+          "label": "Verify returnNeitherNor with true and false",
+          "description": "Checks that returnNeitherNor(true, false) returns false."
+        },
+        {
+          "methodName": "returnNeitherNorTest4",
+          "label": "Verify returnNeitherNor with both inputs false",
+          "description": "Checks that returnNeitherNor(false, false) returns true."
+        }
+      ]
+    }
+  ]
+}
